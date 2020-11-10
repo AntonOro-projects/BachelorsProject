@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimaryDark">#23282B</color>
+    <color name="colorPrimary">#3B4448</color>
+    <color name="colorAccent">#0DAEC9</color>
+
+    <color name="buttons">#3B4448</color>
+    <color name="backgroundMiddle">#333838</color>
+    <color name="font">#FFFFFF</color>
+    <color name="background">#252B2E</color>
+
+    <color name="menuButtonColor">#646262</color>
+    <color name="cameraFABColor">#D6D1D1</color>
+
+
+    <color name="menuButtonCamera">#93335B</color>
+    <color name="menuButtonGraph">#AC623C</color>
+    <color name="menuButtonSetting">#572D73</color>
+
+    <color name="CalibNOK">#E9001B</color>
+    <color name="CalibOK">#3EE900</color>
+
+    <color name="graphAxisValuesColor">#FFFFFF</color>
+</resources>

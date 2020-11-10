@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"> <!-- pressed -->
+        <layer-list>
+            <item android:bottom="2dp"><!--content-->
+                <shape android:shape="rectangle">
+                    <corners android:radius="20dip" />
+                    <solid android:color="@color/buttons" />
+                </shape>
+            </item>
+            <item><!--border-->
+                <shape android:shape="rectangle">
+                    <corners android:radius="20dip" />
+                    <stroke
+                        android:color="#000000"
+                        android:width="2dp"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item> <!-- default -->
+        <layer-list>
+            <item><!--shadow-->
+                <shape android:shape="rectangle">
+                    <solid android:color="#000000"/>
+                    <corners android:radius="20dip"/>
+                </shape>
+            </item>
+            <item android:bottom="20px"><!--button-->
+                <shape android:shape="rectangle">
+                    <corners android:radius="20dip" />
+                    <solid android:color="@color/buttons" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

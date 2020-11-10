@@ -1,0 +1,2 @@
+To start contributing to this project you first need to open up a console
+capable of running bash and then running the file scripts/install-hooks.bash

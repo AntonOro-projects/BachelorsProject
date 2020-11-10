@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">TrackApp</string>
+    <!-- Button names-->
+    <string name="app_name_graph_activity">Graph</string>
+    <string name="xButton">Horizontal</string>
+    <string name="yButton">Vertical</string>
+
+
+    <!-- One Word Strings -->
+    <string name="settings">Settings</string>
+    <string name="videos">Videos</string>
+    <string name="graphs">Graphs</string>
+    <string name="camera">Camera</string>
+    <string name="export">Export</string>
+    <string name="help">Help</string>
+
+
+    <!-- Descriptions -->
+    <!-- &#8230; Is the ellipsis character "..." and prevents text wrapping among other things -->
+    <string name="videolist_loading_description">Loading videos&#8230;</string>
+    <string name="videolist_loading_graph_description">Calculating&#8230;</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="graphBtnPosition">Position</string>
+    <string name="graphBtnVelocity">Velocity</string>
+    <string name="graphBtnAcceleration">Acceleration</string>
+    <!--also title-->
+
+    <!-- Settings name-->
+    <string name="automateDistance">Automatic Distance</string>
+    <string name="debugDualGraphBtn">Debug Dual Graph</string>
+    <string name="debugSingleGraphBtn">Debug Single Graph</string>
+    <string name="debugVideoAndGraphBtn">Debug Video And Graph</string>
+
+    <!--SharedPreference names for keys and files -->
+    <string name="currentSettings">currentSettings</string>
+    <string name="sharedPrefAutomateDistance">autoDist</string>
+
+    <string name="SHARED_PREFERENCES_CALIBRATOR">CalibratePrefences</string>
+    <string name="hasSavedCalibrator">savedCalibrator_Key</string>
+    <string name="sharedCalibrator">Calibrator_Key</string>
+    <string name="sharedCM">Calibrator_CameraMatrix</string>
+    <string name="sharedDC">Calibrator_DistortionC</string>
+
+
+    <string name="video_button">Camera 2 Video button</string>
+    <string name="camera_button">Camera 2 camera button</string>
+    <!-- Units -->
+    <string name="pixels">Pixels</string>
+    <string name="centimeters">Centimeters (Approximate)</string>
+    <string name="meters">Meters (Approximate)</string>
+    <string-array name="graphUnits">
+        <item>@string/pixels</item>
+        <item>@string/centimeters</item>
+        <item>@string/meters</item>
+    </string-array>
+
+</resources>
